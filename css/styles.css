@@ -79,14 +79,8 @@ button {
 .navigation-item:focus {
   color: var(--color-pressed-state);
 }
-.navigation-item:active {
-  color: var(--color-pressed-state);
-}
 .address-item:hover,
 .address-item:focus {
-  color: var(--color-pressed-state);
-}
-.address-item:active {
   color: var(--color-pressed-state);
 }
 
@@ -116,10 +110,6 @@ button {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: var(--color-pressed-state);
-}
-
-.hero-btn:active {
   background-color: var(--color-pressed-state);
 }
 
@@ -233,11 +223,6 @@ button {
 
 .portfolio-filtr-btn:hover,
 .portfolio-filtr-btn:focus {
-  color: var(--color-hero-title);
-  background-color: var(--color-pressed-state);
-}
-
-.portfolio-filtr-btn:active {
   color: var(--color-hero-title);
   background-color: var(--color-pressed-state);
 }
