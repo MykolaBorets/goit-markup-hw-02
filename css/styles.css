@@ -45,7 +45,7 @@ button {
 
 .logo {
   color: var(--color-primary-brand);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -78,13 +78,13 @@ button {
 .navigation-item:hover {
   color: var(--color-pressed-state);
 }
-.navigation-item:focus {
+.navigation-item:active {
   color: var(--color-pressed-state);
 }
 .address-item:hover {
   color: var(--color-pressed-state);
 }
-.address-item:focus {
+.address-item:active {
   color: var(--color-pressed-state);
 }
 
@@ -109,16 +109,14 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  /* border-radius: 4px; */
   background-color: var(--color-primary-brand);
-  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
 }
 
 .hero-btn:hover {
   background-color: var(--color-pressed-state);
 }
 
-.hero-btn:focus {
+.hero-btn:active {
   background-color: var(--color-pressed-state);
 }
 
@@ -201,7 +199,7 @@ button {
 
 .bottom-logo-end {
   color: var(--color-light-mode-background);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -226,8 +224,6 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  /* border-radius: 4px; */
-  /* border: 1px solid var(--color-accent); */
   background: var(--color-light-mode-background);
   cursor: pointer;
 }
@@ -237,7 +233,7 @@ button {
   background-color: var(--color-pressed-state);
 }
 
-.portfolio-filtr-btn:focus {
+.portfolio-filtr-btn:active {
   color: var(--color-hero-title);
   background-color: var(--color-pressed-state);
 }
