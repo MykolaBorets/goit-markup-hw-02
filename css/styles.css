@@ -75,13 +75,15 @@ button {
   letter-spacing: 0.02em;
 }
 
-.navigation-item:hover {
+.navigation-item:hover,
+.navigation-item:focus {
   color: var(--color-pressed-state);
 }
 .navigation-item:active {
   color: var(--color-pressed-state);
 }
-.address-item:hover {
+.address-item:hover,
+.address-item:focus {
   color: var(--color-pressed-state);
 }
 .address-item:active {
@@ -112,7 +114,8 @@ button {
   background-color: var(--color-primary-brand);
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: var(--color-pressed-state);
 }
 
@@ -228,7 +231,8 @@ button {
   cursor: pointer;
 }
 
-.portfolio-filtr-btn:hover {
+.portfolio-filtr-btn:hover,
+.portfolio-filtr-btn:focus {
   color: var(--color-hero-title);
   background-color: var(--color-pressed-state);
 }
