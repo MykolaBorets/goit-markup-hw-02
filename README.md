@@ -1,1 +1,1 @@
-https://mykolaborets.github.io/goit-markup-hw-01/
+https://mykolaborets.github.io/goit-markup-hw-02/
