@@ -43,7 +43,7 @@ button {
 
 /* ***************************************************** */
 
-.logo-bgn {
+.logo {
   color: var(--color-primary-brand);
   font-family: Raleway;
   font-size: 18px;
@@ -54,13 +54,11 @@ button {
 }
 .logo-end {
   color: var(--color-dark);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
+
+/* .contact-us {
+
+} */
 
 .navigation-item {
   color: var(--color-dark);
@@ -77,9 +75,15 @@ button {
   letter-spacing: 0.02em;
 }
 
-.navigation-item:hover,
-.navigation-item:focus,
-.address-item:hover,
+.navigation-item:hover {
+  color: var(--color-pressed-state);
+}
+.navigation-item:focus {
+  color: var(--color-pressed-state);
+}
+.address-item:hover {
+  color: var(--color-pressed-state);
+}
 .address-item:focus {
   color: var(--color-pressed-state);
 }
@@ -105,12 +109,15 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   background-color: var(--color-primary-brand);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
 }
 
-.hero-btn:hover,
+.hero-btn:hover {
+  background-color: var(--color-pressed-state);
+}
+
 .hero-btn:focus {
   background-color: var(--color-pressed-state);
 }
@@ -188,7 +195,11 @@ button {
 
 /* ******************************************************* */
 
-.logo-end-ftr {
+/* .bottom {
+
+} */
+
+.bottom-logo-end {
   color: var(--color-light-mode-background);
   font-family: Raleway;
   font-size: 18px;
@@ -215,13 +226,17 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border-radius: 4px;
-  border: 1px solid var(--color-accent);
+  /* border-radius: 4px; */
+  /* border: 1px solid var(--color-accent); */
   background: var(--color-light-mode-background);
   cursor: pointer;
 }
 
-.portfolio-filtr-btn:hover,
+.portfolio-filtr-btn:hover {
+  color: var(--color-hero-title);
+  background-color: var(--color-pressed-state);
+}
+
 .portfolio-filtr-btn:focus {
   color: var(--color-hero-title);
   background-color: var(--color-pressed-state);
@@ -237,8 +252,8 @@ button {
 
 .portfolio-cards-text {
   color: var(--color-text);
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
