@@ -75,12 +75,8 @@ button {
   letter-spacing: 0.02em;
 }
 
-.navigation-item:hover,
-.navigation-item:focus {
-  color: var(--color-pressed-state);
-}
-.address-item:hover,
-.address-item:focus {
+.link:hover,
+.link:focus {
   color: var(--color-pressed-state);
 }
 
